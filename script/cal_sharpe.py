@@ -17,7 +17,7 @@ def cal_sharpe(df):
     df = df.dropna()
 
     rfr = 0.02
-    df['excess_daily_ret'] = df['daily_ret'] - rfr/len(df.index)
+    df['excess_daily_ret'] = df['daily_ret'] - rfr/252
     return annualised_sharpe(df, len(df.index))
 
 def annualised_sharpe(df, N=252):
