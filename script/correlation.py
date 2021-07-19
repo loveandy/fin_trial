@@ -15,15 +15,8 @@ yf.pdr_override()
 
 start = datetime(2020, 2, 1)
 end = datetime(2020, 6, 30)
-#symbols_list = ["GBTC", "IDNA","SMH", "ICLN","ARKF", "ARKK", "CIBR", "WCLD", "VT", "VTI", "QQQ", "VXF","VEU", "VWO", "BLV", "BIV", "BSV", "VNQ", "BNDX", "BND", "LQD","VTIP", "VNQI", "DBC", "HYG", "GLD", "VCIT", "VGIT", "VCSH", "VGSH"]
 
-#symbols_list=["BLV", "ARKK", "VNQ", "VNQI", "QQQ", "DBC", "GLD", "VTI", "VDE"]
-#symbols_list=["VTI", "VT", "QQQ", "BLV", "VIRT", "KIND-SDB.ST", "ADM.L", "VWO", "SMT.L", "ARKK"]
 symbols_list=["VTI", "VT", "VIRT", "ARKK", "ADM.L"]
-#symbols_list=["VOO", "QQQ", "IWM", "VGK", "EWJ", "GSG", "GLD", "VNQ", "HYG", "TLT", "LQD", "IEF", "SHY"]
-#symbols_list=["VTI","VT", "VNQ", "VNQI", "TLT", "GSG", "GLD", "TIP", "VIRT"]
-#symbols_list=["VTI", "DEEP", "GVAL", "QVAL", "IVAL", "FVAL", "DSTL", "NULV", "SLVY", "IWS", "VTV"]
-#symbols_list=["VTI", "PSP", "PEX"]
 symbols=[]
 
 #pull price using iex for each symbol in list defined above
