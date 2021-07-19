@@ -32,10 +32,7 @@ yf.pdr_override()
 
 start = datetime(2020, 2, 1)
 end = datetime(2021, 6, 30)
-#symbols_list = ["GBTC", "IDNA","SMH", "ICLN","ARKF", "ARKK", "CIBR", "WCLD", "VT", "VTI", "QQQ", "VXF","VEU", "VWO", "BLV", "BIV", "BSV", "VNQ", "BNDX", "BND", "LQD","VTIP", "VNQI", "DBC", "HYG", "GLD", "VCIT", "VGIT", "VCSH", "VGSH"]
 
-#symbols_list=["BLV", "ARKK", "VNQ", "VNQI", "QQQ", "DBC", "GLD", "VTI", "VDE"]
-#symbols_list=["VTI", "VT", "QQQ", "BLV", "VIRT", "KIND-SDB.ST", "ADM.L", "VWO", "SMT.L", "ARKK"]
 symbols_list=["VTI", "VT", "VIRT", "ARKK", "ADM.L", "VWO", "SMT.L", "BLV"]
 
 
